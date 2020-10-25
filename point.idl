@@ -1,0 +1,17 @@
+
+interface Point {
+	attribute long x;
+	attribute long y;
+	void Point();
+	void Point( long x, long y );
+	[Operator="*",Ref] Point op_add( [Const,Ref] Point p );
+	double length();
+	void mutateTuple(int[] vector);
+};
+
+interface IntTuple {
+	attribute int[] raw;
+	void IntTuple(int x, int y);
+	int getX();
+	int getY();
+};

@@ -1,0 +1,10 @@
+/out
+*.obj
+*.o
+*.hl
+*.js
+*.bc
+*.so
+*.tmp
+libpoint.cpp
+sample
