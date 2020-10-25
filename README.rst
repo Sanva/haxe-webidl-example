@@ -15,37 +15,28 @@ to use in a place where an already created
 Setup
 -----
 
-```
-lix download
-```
+  lix download
 
 Build for Haxe/C++ — Linux
 --------------------------
 
-```
-make linux-shared
-```
+  make linux-shared
 
 Run — Linux, shared library
 ---------------------------
 
-```
-make run-linux-shared
-```
+  make run-linux-shared
+
 
 Should print
 
-```
-Sample.hx:21: Result = 11,13 len=17.0293863659264
-Sample.hx:23: -1
-Sample.hx:24: 1
-Sample.hx:26: 11
-Sample.hx:27: 13
-```
+  Sample.hx:21: Result = 11,13 len=17.0293863659264
+  Sample.hx:23: -1
+  Sample.hx:24: 1
+  Sample.hx:26: 11
+  Sample.hx:27: 13
 
 Check memory with valgrind
 --------------------------
 
-```
-make check-linux-shared
-```
+  make check-linux-shared
